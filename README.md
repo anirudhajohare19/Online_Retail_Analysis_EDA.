@@ -5,7 +5,7 @@
 The primary goal of this project is to analyze customer purchase behavior using an **E-Commerce sales dataset**. The analysis will help uncover patterns in customer spending, product demand, and market trends, leading to actionable business insights.
 
 ### **Dataset Description**
-The dataset used for this project, "Online Retail 2.xlsx," consists of transactional data from an online retail store. It contains details such as **invoice number, product description, quantity, price, customer ID, invoice date, and country** of purchase.
+This is a transactional data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 
 ## 2. **Business Goals**
 - **Understand customer purchase behavior** to improve marketing strategies.
