@@ -1,75 +1,55 @@
-# **Online Retail Sales Analysis**
---
+# Customer Purchase Behavior Analysis.
 
-# Project Overview
+## 1. **Project Overview**
+### **Objective**
+The primary goal of this project is to analyze customer purchase behavior using an **E-Commerce sales dataset**. The analysis will help uncover patterns in customer spending, product demand, and market trends, leading to actionable business insights.
 
-This project analyzes an online retail dataset to extract business insights, identify sales trends, and provide recommendations to improve revenue, customer retention, and operational efficiency.
- --
+### **Dataset Description**
+The dataset used for this project, "Online Retail 2.xlsx," consists of transactional data from an online retail store. It contains details such as **invoice number, product description, quantity, price, customer ID, invoice date, and country** of purchase.
 
-# Objective
+## 2. **Business Goals**
+- **Understand customer purchase behavior** to improve marketing strategies.
+- **Identify best-selling products** and optimize inventory management.
+- **Analyze regional sales trends** for targeted promotions.
+- **Segment customers using RFM Analysis** to enhance customer retention.
 
-This project aims to analyze an online retail dataset to extract business insights, identify sales trends, and provide data-driven recommendations to improve revenue, customer retention, and operational efficiency.
---
+## 3. **Project Workflow**
 
-# Dataset Information
+### **Step 1: Data Collection & Preprocessing**
+- Load the dataset from an Excel file.
+- Handle missing values and duplicates.
+- Convert data types for accurate analysis.
+- Remove canceled transactions (negative quantities).
 
-Dataset Name: Online Retail II
+### **Step 2: Exploratory Data Analysis (EDA)**
+- Identify **top-selling products** based on quantity sold.
+- Analyze **monthly sales trends** to detect seasonal patterns.
+- Identify **top revenue-generating countries**.
+- Visualize **customer distribution** by frequency and spending.
 
-Source: Contains transactional data from an e-commerce store.
+### **Step 3: Customer Segmentation (RFM Analysis)**
+- Compute **Recency** (days since last purchase), **Frequency** (number of purchases), and **Monetary** (total revenue contribution) for each customer.
+- Assign **RFM scores** to categorize customers into loyalty tiers (e.g., VIPs, churn risks, occasional buyers).
 
-Key Columns: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
+### **Step 4: Business Insights & Recommendations**
+- Identify peak sales periods and **suggest promotional strategies**.
+- Determine high-value customers and recommend **loyalty programs**.
+- Analyze country-wise sales performance for **market expansion strategies**.
 
-## Additional Information
+### **Step 5: Data Visualization & Reporting**
+- Create interactive charts and graphs using **Matplotlib, Seaborn, and Plotly**.
 
-This is a transactional dataset which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
---
 
-# Tools & Technologies Used
+## 4. **Key Findings & Insights**
+| Finding | Business Impact | Recommendation |
+|---------|---------------|----------------|
+| Sales peak in November & December | Seasonal demand | Increase inventory & run holiday promotions |
+| Top 10 products drive majority of sales | Core revenue generators | Focus on bundling & upselling these products |
+| UK dominates revenue, followed by Germany & France | Market segmentation | Expand targeted marketing in high-performing regions |
+| 30% of customers are one-time buyers | High churn rate | Implement personalized email campaigns & discounts |
 
-Programming Language: Python
 
-Libraries: NumPy, Pandas, Matplotlib, Seaborn, Plotly
 
-Visualization: Jupyter Notebook, Streamlit
 
-Version Control: Git & GitHub
---
-
-# Project Workflow
-
-## 1. Data Cleaning & Preprocessing
-
-Handling missing values
-
-Removing duplicates
-
-Converting data types
-
-Creating new features
-
-## 2. Exploratory Data Analysis (EDA)
-
-Sales trends over time
-
-Best-selling products
-
-Geographic sales analysis
-
-## 3. Customer segmentation (RFM Analysis)
-
-Customer order behavior
-
-Insights & Recommendations
-
-Seasonal sales patterns
-
-Inventory optimization
-
-Market expansion strategies
-
-Customer retention tactics
-
-Fraud detection
--- 
 
 
